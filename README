@@ -1,0 +1,13 @@
+This is a graphical client for the Ricochet Robots protocol
+server, written by Bart Massey in Java. It is part of the
+Ricochet Robotics project (http://github.com/ricochet-robotics).
+
+Some important functionality, new game creation in
+particular, is currently only stubbed in, so the software
+needs more work before it will quite be usable.
+
+To build, "javac RRClient.java". To run, "java RRClient".
+
+    Bart Massey
+    bart.massey@gmail.com
+    2011-06-30
