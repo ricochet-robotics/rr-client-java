@@ -1,0 +1,32 @@
+2004-01-07  Keith Packard  <keithp@keithp.com>
+
+	* RRClient.java: (RRClient.main):
+	* RRMessages.java: (RRMessages.message):
+	* RRNetIn.java: (RRNetIn.TimerHandler),
+	(RRNetIn.TimerHandler.match), (RRNetIn), (RRNetIn.UserHandler),
+	(RRNetIn.UserHandler.match), (RRNetIn.JoinHandler),
+	(RRNetIn.JoinHandler.match), (RRNetIn.PartHandler),
+	(RRNetIn.PartHandler.match), (RRNetIn.DefaultHandler.match):
+	Add bunches of new commands
+
+2004-01-07  Keith Packard  <keithp@keithp.com>
+
+	* RRBoard.java: (RRBoard.moveRobot):
+	Allow missing robots (happens during reset)
+	* RRNetIn.java: (RRNetIn.ResetHandler.match):
+	Take patch to ResetHandler from Bart.
+
+2004-01-07  Keith Packard  <keithp@keithp.com>
+
+	* RRBoard.java: (RRBoard.moveRobot):
+	* RRClient.java: (RRClient.main):
+	* RRController.java: (RRController):
+	* RRMessages.java: (RRMessages), (RRMessages.RRMessages),
+	(RRMessages.message):
+	* RRNetIn.java: (RRNetIn.ResetHandler.match),
+	(RRNetIn.ResetHandler), (RRNetIn):
+	* RRNetOut.java: (RRNetOut..uniprint), (RRNetOut..move),
+	(RRNetOut.), (RRNetOut..revoke), (RRNetOut..abandon),
+	(RRNetOut..nobid), (RRNetOut..turn), (RRNetOut..pass),
+	(RRNetOut..part), (RRNetOut..quit), (RRNetOut..message):
+	Add a bunch of buttons and message handling.
